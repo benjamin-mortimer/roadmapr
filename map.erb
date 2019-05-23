@@ -1,0 +1,19 @@
+<h1>
+	<%= title %>
+</h1>
+
+<div>
+	<%= map_data %>
+</div>
+
+<div class="stylesheet-test-div">This text should be red</div>
+
+<form action="/new-step" method="post">
+	<label>Step name
+		<input type="text" name="step_name">
+	</label>
+	<label>Step description
+		<input type="text" name="step_description">
+	</label>
+	<input type="submit" value="Save">
+</form>
