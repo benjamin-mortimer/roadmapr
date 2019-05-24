@@ -1,0 +1,86 @@
+.add {
+	border: 2px dotted black;
+	display: inline-block;
+	font-size: 18px;
+	margin: 3px;
+	max-width: 150px;
+	min-height: 18px;
+	min-width: 150px;
+	padding: 2px;
+	vertical-align: top;
+}
+
+.add:hover {
+	border: 2px solid blue;
+}
+
+.add:hover::after {
+	content: "Add";
+	margin: 0;
+}
+
+a:visited {
+	border: none;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 900px;
+	overflow: scroll;
+}
+
+div {
+	margin: 2px;
+}
+
+div:hover {
+	border: 2px solid lightblue;
+}
+
+.group {
+	margin: 10px 0px;
+	min-width: 5000px;
+}
+
+.group-name {
+	font-size: 20px;
+}
+
+.html {
+	overflow: scroll;
+}
+
+.js-hidden--hidden {
+	display: none;
+}
+
+.js-hidden--visible {
+	display: auto;
+}
+
+.placeholder {
+	border: 2px solid black;
+	display: inline-block;
+	margin: 3px;
+	max-width: 150px;
+	min-width: 150px;
+	padding: 2px;
+	visibility: hidden
+}
+
+.step {
+	border: 2px solid black;
+	display: inline-block;
+	font-size: 18px;
+	margin: 3px;
+	max-width: 150px;
+	min-width: 150px;
+	padding: 2px;
+	vertical-align: top;
+}
+
+
+

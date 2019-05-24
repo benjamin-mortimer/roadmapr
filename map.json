@@ -1,0 +1,32 @@
+{
+	"journey": {
+		"name": "A journey",
+		"groups": {
+			"group_1": {
+				"starts_at": 0,
+				"steps": [
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem",
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem",
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem"
+				]
+			},
+			"group_2": {
+				"starts_at": 3,
+				"steps": [
+					"Ipsum ipsum dolor",
+					"Sit amit consectetor"
+				]
+			}
+		}
+	}
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map</title>
+	<link rel="stylesheet" type="text/css" href="div-map-stylesheet.css">
+	<script>
+	  function showHiddenElement(paragraph_id) {
+      document.getElementById(paragraph_id).className='js-hidden--visible'
+    }
+	</script>
+</head>
+<body>
+
+<div class="container">
+	<div class="group"><div class="group-name">group_1</div><div class="step">Lorem ipsum dolor sit amet</div><div class="step">Consectetor adipiscing elit</div><div class="step">Eu et urbis</div><div class="step">Eusmod lorem lorem</div><div class="step">Lorem ipsum dolor sit amet</div><div class="step">Consectetor adipiscing elit</div><div class="step">Eu et urbis</div><div class="step">Eusmod lorem lorem</div><div class="step">Lorem ipsum dolor sit amet</div><div class="step">Consectetor adipiscing elit</div><div class="step">Eu et urbis</div><div class="step">Eusmod lorem lorem</div></div><div class="group"><div class="group-name">group_2</div><a href="/add"><div class="add"></div></a><div class="placeholder"></div><div class="placeholder"></div><div class="step">Ipsum ipsum dolor</div><div class="step">Sit amit consectetor</div></div>
+</div>
+
+<button onclick="showHiddenElement('new-step-form')">
+	Add new step
+</button>
+
+<div class="js-hidden--hidden" id="new-step-form">
+	<form action="/add" method="post">
+		<input type="text" name="new-step-name">
+	</form>
+</div>
+
+<div>
+	<pre>
+		<code>
+	{
+	"journey": {
+		"name": "A journey",
+		"groups": {
+			"group_1": {
+				"starts_at": 0,
+				"steps": [
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem",
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem",
+					"Lorem ipsum dolor sit amet",
+					"Consectetor adipiscing elit",
+					"Eu et urbis",
+					"Eusmod lorem lorem"
+				]
+			},
+			"group_2": {
+				"starts_at": 3,
+				"steps": [
+					"Ipsum ipsum dolor",
+					"Sit amit consectetor"
+				]
+			}
+		}
+	}
+
+}
+		</code>
+	</pre>
+</div>
+
+	<form action="/add" method="post">
+		<input type="text" name="new-step-name">
+	</form>
+</body>
+</html>
+
